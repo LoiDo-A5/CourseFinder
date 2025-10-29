@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import CoursesApp from './courses/CoursesApp.jsx'
 
-const PAGE_TITLE = 'Họ và Tên - MASV'
+const PAGE_TITLE = 'Đỗ LợI - K23DTCN035'
 
 export default function App() {
   useEffect(() => {
