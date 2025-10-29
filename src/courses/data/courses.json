@@ -1,0 +1,112 @@
+[
+  {
+    "id": "rjs-101",
+    "title": "React Fundamentals",
+    "instructor": "Jane Doe",
+    "category": "Web",
+    "price": 49.9,
+    "rating": 4.6,
+    "shortDescription": "Learn core React concepts like components, props, and state.",
+    "description": "This course provides a strong foundation in React. You'll build multiple projects while learning about JSX, props, state management, and component lifecycles.",
+    "syllabus": ["JSX & Components", "State & Props", "Lists & Keys", "Forms & Validation", "useEffect Basics"]
+  },
+  {
+    "id": "rjs-adv",
+    "title": "Advanced React Patterns",
+    "instructor": "John Smith",
+    "category": "Web",
+    "price": 79.0,
+    "rating": 4.8,
+    "shortDescription": "Master React hooks, context, and performance optimization.",
+    "description": "Go beyond the basics by learning advanced patterns for reusability and performance. Covers Context API, custom hooks, memoization, and more.",
+    "syllabus": ["Hooks Deep Dive", "Context API", "Custom Hooks", "React.memo", "Performance Optimization"]
+  },
+  {
+    "id": "ds-101",
+    "title": "Data Analysis with Python",
+    "instructor": "Anna Nguyen",
+    "category": "Data",
+    "price": 59.0,
+    "rating": 4.5,
+    "shortDescription": "Analyze data efficiently using Pandas and NumPy.",
+    "description": "Hands-on introduction to data analysis. Learn to clean, visualize, and interpret real datasets using Python libraries such as NumPy and Pandas.",
+    "syllabus": ["NumPy Arrays", "Pandas DataFrames", "Data Cleaning", "Data Visualization", "Case Studies"]
+  },
+  {
+    "id": "ai-ml",
+    "title": "Intro to Machine Learning",
+    "instructor": "Michael Lee",
+    "category": "AI",
+    "price": 89.0,
+    "rating": 4.7,
+    "shortDescription": "Learn supervised and unsupervised learning basics.",
+    "description": "Understand the concepts behind machine learning algorithms and apply them using scikit-learn. Includes regression, classification, and clustering.",
+    "syllabus": ["Regression", "Classification", "Clustering", "Model Evaluation", "ML Pipelines"]
+  },
+  {
+    "id": "mob-101",
+    "title": "React Native for Beginners",
+    "instructor": "Sarah Tran",
+    "category": "Mobile",
+    "price": 69.0,
+    "rating": 4.4,
+    "shortDescription": "Build cross-platform apps with React Native.",
+    "description": "Create your first mobile app using React Native. Learn about components, navigation, and integration with APIs.",
+    "syllabus": ["React Native Basics", "Navigation", "Networking", "Styling Components", "Publishing Apps"]
+  },
+  {
+    "id": "web-ux",
+    "title": "UI/UX Design Fundamentals",
+    "instructor": "David Pham",
+    "category": "Design",
+    "price": 39.0,
+    "rating": 4.3,
+    "shortDescription": "Learn the principles of user interface and experience design.",
+    "description": "Explore color theory, typography, and layout principles. Learn how to design wireframes and prototypes for web and mobile apps.",
+    "syllabus": ["Color & Typography", "Wireframing", "Prototyping", "Design Systems", "Usability Testing"]
+  },
+  {
+    "id": "node-101",
+    "title": "Node.js Backend Development",
+    "instructor": "Minh Hoang",
+    "category": "Backend",
+    "price": 75.0,
+    "rating": 4.6,
+    "shortDescription": "Build RESTful APIs with Node.js and Express.",
+    "description": "Learn backend development using Node.js, Express, and MongoDB. Build scalable APIs and connect them to frontend clients.",
+    "syllabus": ["Express Basics", "Routing", "MongoDB", "JWT Auth", "Deployment"]
+  },
+  {
+    "id": "py-ds",
+    "title": "Python for Data Science",
+    "instructor": "Emily Vu",
+    "category": "Data",
+    "price": 65.0,
+    "rating": 4.5,
+    "shortDescription": "Use Python to explore, analyze, and visualize data.",
+    "description": "Comprehensive introduction to Python programming for data science. Learn essential libraries and practical workflows for real-world datasets.",
+    "syllabus": ["Python Basics", "NumPy", "Pandas", "Matplotlib", "Case Studies"]
+  },
+  {
+    "id": "fe-html",
+    "title": "Modern HTML & CSS",
+    "instructor": "Alex Nguyen",
+    "category": "Web",
+    "price": 35.0,
+    "rating": 4.2,
+    "shortDescription": "Master modern web layout using Flexbox and Grid.",
+    "description": "Learn how to structure and style websites using semantic HTML and advanced CSS techniques including Flexbox and CSS Grid.",
+    "syllabus": ["HTML5 Semantic", "CSS Flexbox", "CSS Grid", "Responsive Design", "Animations"]
+  },
+  {
+    "id": "ai-dl",
+    "title": "Deep Learning Essentials",
+    "instructor": "Ngoc Tran",
+    "category": "AI",
+    "price": 99.0,
+    "rating": 4.9,
+    "shortDescription": "Implement neural networks with TensorFlow and PyTorch.",
+    "description": "This course introduces deep learning fundamentals. Build models using TensorFlow and PyTorch and understand CNNs, RNNs, and transfer learning.",
+    "syllabus": ["Neural Networks", "TensorFlow Basics", "CNNs", "RNNs", "Transfer Learning"]
+  }
+]
