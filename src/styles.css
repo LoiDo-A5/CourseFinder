@@ -1,29 +1,25 @@
 :root {
-  --bg: #0f172a;
-  --panel: #111827;
-  --muted: #9ca3af;
-  --text: #e5e7eb;
-  --primary: #3b82f6;
-  --danger: #ef4444;
-  --border: #1f2937;
+  --bg: #f8fafc; /* light slate-50 */
+  --panel: #ffffff;
+  --muted: #64748b; /* slate-500 */
+  --text: #1f2937; /* slate-800 */
+  --primary: #0d6efd; /* bootstrap primary */
+  --danger: #dc3545; /* bootstrap danger */
+  --border: #e5e7eb; /* slate-200 */
 }
 * { box-sizing: border-box; }
 html, body, #root { height: 100%; }
 body {
   margin: 0;
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Noto Sans, "Apple Color Emoji", "Segoe UI Emoji";
-  background: radial-gradient(1200px 600px at 10% -10%, #1e293b, var(--bg));
+  background: radial-gradient(1200px 600px at 10% -10%, #e0f2fe, var(--bg));
   color: var(--text);
 }
 
 .container {
-  max-width: 720px;
-  margin: 40px auto;
-  padding: 24px;
-  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+  /* Do not override Bootstrap container sizing; keep spacing light */
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .app-title {
   margin: 0 0 16px;
@@ -43,12 +39,12 @@ body {
   padding: 10px 14px;
   border-radius: 10px;
   border: 1px solid var(--border);
-  background: #0b1220;
+  background: #ffffff;
   color: var(--text);
   cursor: pointer;
 }
-.btn.primary { background: var(--primary); border-color: #2563eb; }
-.btn.danger { background: var(--danger); border-color: #b91c1c; }
+.btn.primary { background: var(--primary); border-color: #0b5ed7; color: #fff; }
+.btn.danger { background: var(--danger); border-color: #bb2d3b; color: #fff; }
 .btn:hover { filter: brightness(1.05); }
 
 .empty { color: var(--muted); margin-top: 12px; }
@@ -61,7 +57,7 @@ body {
   padding: 12px;
   border: 1px solid var(--border);
   border-radius: 12px;
-  background: #0b1220;
+  background: #ffffff;
 }
 .todo-item.done .title { text-decoration: line-through; color: var(--muted); }
 .title { font-size: 15px; }
@@ -76,11 +72,36 @@ body {
   left: 50%;
   top: 16px;
   transform: translateX(-50%);
-  background: rgba(0,0,0,0.85);
-  color: #fff;
+  background: rgba(255,255,255,0.95);
+  color: #111827;
   padding: 10px 14px;
   border-radius: 10px;
   border: 1px solid var(--border);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
   z-index: 50;
+}
+
+/* Vibrant accents for course UI */
+.card {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(2, 132, 199, 0.08);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(2, 132, 199, 0.15);
+}
+.badge.text-bg-warning {
+  background-color: #f59e0b !important; /* amber-500 */
+}
+.btn-primary {
+  box-shadow: 0 6px 14px rgba(13, 110, 253, 0.25);
+}
+.btn-primary:hover {
+  box-shadow: 0 8px 18px rgba(13, 110, 253, 0.35);
+}
+.modal-content {
+  border-radius: 16px;
+  border: 1px solid var(--border);
 }
